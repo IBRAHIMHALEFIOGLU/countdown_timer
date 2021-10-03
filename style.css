@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 90vh;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 4rem;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.countdown-container {
+  display: flex;
+  margin: auto;
+  margin-top: -5px;
+  padding: 5rem;
+}
+.big-text {
+  font-weight: 40rem;
+  font-size: 6rem;
+  line-height: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 2rem;
+  padding: 3rem;
+}
